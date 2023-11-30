@@ -16,8 +16,8 @@ def trova_indirizzi_btc(file_csv, colonna_testo):
     return indirizzi_btc
 
 # Esempio di utilizzo:
-file_csv_input = 'file.csv'
-colonna_testo_input = 'USER ATTRIBUTES ***;;;;;;;'
+file_csv_input = ''
+colonna_testo_input = ''
 
 indirizzi_trovati = trova_indirizzi_btc(file_csv_input, colonna_testo_input)
 
